@@ -7,20 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400E6C971F90C540003879F8 /* AllLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02B81F90B74800613124 /* AllLines.swift */; };
+		400E6C991F90C5FC003879F8 /* SelectedLinesTrimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */; };
+		400E6C9B1F90C733003879F8 /* DecommentLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E6C9A1F90C733003879F8 /* DecommentLines.swift */; };
 		405A02931F90B3AA00613124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02921F90B3AA00613124 /* AppDelegate.swift */; };
 		405A02951F90B3AA00613124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02941F90B3AA00613124 /* ViewController.swift */; };
 		405A02971F90B3AA00613124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405A02961F90B3AA00613124 /* Assets.xcassets */; };
 		405A029A1F90B3AA00613124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405A02981F90B3AA00613124 /* Main.storyboard */; };
+		405A02A91F90B40100613124 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405A02A81F90B40100613124 /* Cocoa.framework */; };
+		405A02AC1F90B40100613124 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02AB1F90B40100613124 /* SourceEditorExtension.swift */; };
+		405A02AE1F90B40100613124 /* SelectedLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02AD1F90B40100613124 /* SelectedLines.swift */; };
+		405A02B31F90B40100613124 /* multilineComment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 405A02A61F90B40100613124 /* multilineComment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		405ACF9B1F90F06100758A7D /* SelectedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405ACF9A1F90F06100758A7D /* SelectedRange.swift */; };
+		405ACF9D1F90F62200758A7D /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405ACF9C1F90F62200758A7D /* Consts.swift */; };
+		4084C9FE1F90CD23002ECCD1 /* SelectedLinesCommentInNewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		405A02B11F90B40100613124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405A02871F90B3AA00613124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405A02A51F90B40100613124;
+			remoteInfo = multilineCommentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		405A02B71F90B40100613124 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				405A02B31F90B40100613124 /* multilineComment.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		405A028F1F90B3AA00613124 /* multilineCommentExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multilineCommentExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLinesTrimming.swift; sourceTree = "<group>"; };
+		400E6C9A1F90C733003879F8 /* DecommentLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecommentLines.swift; sourceTree = "<group>"; };
+		405A028F1F90B3AA00613124 /* multilineCommentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multilineCommentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405A02921F90B3AA00613124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		405A02941F90B3AA00613124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		405A02961F90B3AA00613124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		405A02991F90B3AA00613124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		405A029B1F90B3AA00613124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405A029C1F90B3AA00613124 /* multilineCommentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = multilineCommentExtension.entitlements; sourceTree = "<group>"; };
+		405A02A61F90B40100613124 /* multilineComment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = multilineComment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A02A81F90B40100613124 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		405A02AB1F90B40100613124 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		405A02AD1F90B40100613124 /* SelectedLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLines.swift; sourceTree = "<group>"; };
+		405A02AF1F90B40100613124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405A02B01F90B40100613124 /* multilineCommentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = multilineCommentExtension.entitlements; sourceTree = "<group>"; };
+		405A02B81F90B74800613124 /* AllLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLines.swift; sourceTree = "<group>"; };
+		405ACF9A1F90F06100758A7D /* SelectedRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRange.swift; sourceTree = "<group>"; };
+		405ACF9C1F90F62200758A7D /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLinesCommentInNewLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +77,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		405A02A31F90B40100613124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A02A91F90B40100613124 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				405A02911F90B3AA00613124 /* multilineCommentExtension */,
+				405A02AA1F90B40100613124 /* multilineCommentExtension */,
+				405A02A71F90B40100613124 /* Frameworks */,
 				405A02901F90B3AA00613124 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,7 +101,8 @@
 		405A02901F90B3AA00613124 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				405A028F1F90B3AA00613124 /* multilineCommentExtension.app */,
+				405A028F1F90B3AA00613124 /* multilineCommentApp.app */,
+				405A02A61F90B40100613124 /* multilineComment.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,16 +120,60 @@
 			path = multilineCommentExtension;
 			sourceTree = "<group>";
 		};
+		405A02A71F90B40100613124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405A02A81F90B40100613124 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405A02AA1F90B40100613124 /* multilineCommentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				405ACF9C1F90F62200758A7D /* Consts.swift */,
+				405A02AB1F90B40100613124 /* SourceEditorExtension.swift */,
+				400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */,
+				405A02AD1F90B40100613124 /* SelectedLines.swift */,
+				405ACF9A1F90F06100758A7D /* SelectedRange.swift */,
+				405A02B81F90B74800613124 /* AllLines.swift */,
+				4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */,
+				400E6C9A1F90C733003879F8 /* DecommentLines.swift */,
+				405A02AF1F90B40100613124 /* Info.plist */,
+				405A02B01F90B40100613124 /* multilineCommentExtension.entitlements */,
+			);
+			path = multilineCommentExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		405A028E1F90B3AA00613124 /* multilineCommentExtension */ = {
+		405A028E1F90B3AA00613124 /* multilineCommentApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 405A029F1F90B3AA00613124 /* Build configuration list for PBXNativeTarget "multilineCommentExtension" */;
+			buildConfigurationList = 405A029F1F90B3AA00613124 /* Build configuration list for PBXNativeTarget "multilineCommentApp" */;
 			buildPhases = (
 				405A028B1F90B3AA00613124 /* Sources */,
 				405A028C1F90B3AA00613124 /* Frameworks */,
 				405A028D1F90B3AA00613124 /* Resources */,
+				405A02B71F90B40100613124 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405A02B21F90B40100613124 /* PBXTargetDependency */,
+			);
+			name = multilineCommentApp;
+			productName = multilineCommentExtension;
+			productReference = 405A028F1F90B3AA00613124 /* multilineCommentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405A02A51F90B40100613124 /* multilineCommentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405A02B41F90B40100613124 /* Build configuration list for PBXNativeTarget "multilineCommentExtension" */;
+			buildPhases = (
+				405A02A21F90B40100613124 /* Sources */,
+				405A02A31F90B40100613124 /* Frameworks */,
+				405A02A41F90B40100613124 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -80,8 +181,8 @@
 			);
 			name = multilineCommentExtension;
 			productName = multilineCommentExtension;
-			productReference = 405A028F1F90B3AA00613124 /* multilineCommentExtension.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 405A02A61F90B40100613124 /* multilineComment.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +195,10 @@
 				ORGANIZATIONNAME = "Andrew Vanyurin";
 				TargetAttributes = {
 					405A028E1F90B3AA00613124 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					405A02A51F90B40100613124 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -112,7 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				405A028E1F90B3AA00613124 /* multilineCommentExtension */,
+				405A028E1F90B3AA00613124 /* multilineCommentApp */,
+				405A02A51F90B40100613124 /* multilineCommentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +230,13 @@
 			files = (
 				405A02971F90B3AA00613124 /* Assets.xcassets in Resources */,
 				405A029A1F90B3AA00613124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A02A41F90B40100613124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +252,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		405A02A21F90B40100613124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4084C9FE1F90CD23002ECCD1 /* SelectedLinesCommentInNewLine.swift in Sources */,
+				405ACF9D1F90F62200758A7D /* Consts.swift in Sources */,
+				400E6C971F90C540003879F8 /* AllLines.swift in Sources */,
+				400E6C991F90C5FC003879F8 /* SelectedLinesTrimming.swift in Sources */,
+				400E6C9B1F90C733003879F8 /* DecommentLines.swift in Sources */,
+				405ACF9B1F90F06100758A7D /* SelectedRange.swift in Sources */,
+				405A02AC1F90B40100613124 /* SourceEditorExtension.swift in Sources */,
+				405A02AE1F90B40100613124 /* SelectedLines.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405A02B21F90B40100613124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405A02A51F90B40100613124 /* multilineCommentExtension */;
+			targetProxy = 405A02B11F90B40100613124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		405A02981F90B3AA00613124 /* Main.storyboard */ = {
@@ -262,6 +398,7 @@
 		405A02A01F90B3AA00613124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = multilineCommentExtension/multilineCommentExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -278,6 +415,7 @@
 		405A02A11F90B3AA00613124 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = multilineCommentExtension/multilineCommentExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +425,38 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AndrewVanyurin.multilineCommentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		405A02B51F90B40100613124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = multilineCommentExtension/multilineCommentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M9AGS7ZM7A;
+				INFOPLIST_FILE = multilineCommentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewVanyurin.multilineCommentExtension.multilineCommentExtension;
+				PRODUCT_NAME = multilineComment;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		405A02B61F90B40100613124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = multilineCommentExtension/multilineCommentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M9AGS7ZM7A;
+				INFOPLIST_FILE = multilineCommentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndrewVanyurin.multilineCommentExtension.multilineCommentExtension;
+				PRODUCT_NAME = multilineComment;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -303,11 +473,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		405A029F1F90B3AA00613124 /* Build configuration list for PBXNativeTarget "multilineCommentExtension" */ = {
+		405A029F1F90B3AA00613124 /* Build configuration list for PBXNativeTarget "multilineCommentApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				405A02A01F90B3AA00613124 /* Debug */,
 				405A02A11F90B3AA00613124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405A02B41F90B40100613124 /* Build configuration list for PBXNativeTarget "multilineCommentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A02B51F90B40100613124 /* Debug */,
+				405A02B61F90B40100613124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
