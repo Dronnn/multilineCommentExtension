@@ -55,6 +55,7 @@
 		405A02AF1F90B40100613124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405A02B01F90B40100613124 /* multilineCommentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = multilineCommentExtension.entitlements; sourceTree = "<group>"; };
 		AA1234560000000000000001 /* CommentCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCommand.swift; sourceTree = "<group>"; };
+		AA1234560000000000000010 /* HostApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HostApp-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +103,7 @@
 				405A02941F90B3AA00613124 /* ViewController.swift */,
 				405A02961F90B3AA00613124 /* Assets.xcassets */,
 				405A02981F90B3AA00613124 /* Main.storyboard */,
-				405A029B1F90B3AA00613124 /* Info.plist */,
+				AA1234560000000000000010 /* HostApp-Info.plist */,
 				405A029C1F90B3AA00613124 /* multilineCommentExtension.entitlements */,
 			);
 			path = multilineCommentExtension;
@@ -380,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = M9AGS7ZM7A;
-				INFOPLIST_FILE = multilineCommentExtension/Info.plist;
+				INFOPLIST_FILE = multilineCommentExtension/HostApp-Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AndrewVanyurin.multilineCommentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,7 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = M9AGS7ZM7A;
-				INFOPLIST_FILE = multilineCommentExtension/Info.plist;
+				INFOPLIST_FILE = multilineCommentExtension/HostApp-Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AndrewVanyurin.multilineCommentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
