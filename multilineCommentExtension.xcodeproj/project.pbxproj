@@ -7,20 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		400E6C971F90C540003879F8 /* AllLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02B81F90B74800613124 /* AllLines.swift */; };
-		400E6C991F90C5FC003879F8 /* SelectedLinesTrimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */; };
-		400E6C9B1F90C733003879F8 /* DecommentLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400E6C9A1F90C733003879F8 /* DecommentLines.swift */; };
 		405A02931F90B3AA00613124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02921F90B3AA00613124 /* AppDelegate.swift */; };
 		405A02951F90B3AA00613124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02941F90B3AA00613124 /* ViewController.swift */; };
 		405A02971F90B3AA00613124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405A02961F90B3AA00613124 /* Assets.xcassets */; };
 		405A029A1F90B3AA00613124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405A02981F90B3AA00613124 /* Main.storyboard */; };
 		405A02A91F90B40100613124 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405A02A81F90B40100613124 /* Cocoa.framework */; };
 		405A02AC1F90B40100613124 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02AB1F90B40100613124 /* SourceEditorExtension.swift */; };
-		405A02AE1F90B40100613124 /* SelectedLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405A02AD1F90B40100613124 /* SelectedLines.swift */; };
 		405A02B31F90B40100613124 /* multilineComment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 405A02A61F90B40100613124 /* multilineComment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		405ACF9B1F90F06100758A7D /* SelectedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405ACF9A1F90F06100758A7D /* SelectedRange.swift */; };
-		405ACF9D1F90F62200758A7D /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405ACF9C1F90F62200758A7D /* Consts.swift */; };
-		4084C9FE1F90CD23002ECCD1 /* SelectedLinesCommentInNewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */; };
+		AA1234560000000000000002 /* CommentCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1234560000000000000001 /* CommentCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLinesTrimming.swift; sourceTree = "<group>"; };
-		400E6C9A1F90C733003879F8 /* DecommentLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecommentLines.swift; sourceTree = "<group>"; };
 		405A028F1F90B3AA00613124 /* multilineCommentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multilineCommentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405A02921F90B3AA00613124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		405A02941F90B3AA00613124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,13 +52,9 @@
 		405A02A61F90B40100613124 /* multilineComment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = multilineComment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		405A02A81F90B40100613124 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		405A02AB1F90B40100613124 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		405A02AD1F90B40100613124 /* SelectedLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLines.swift; sourceTree = "<group>"; };
 		405A02AF1F90B40100613124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405A02B01F90B40100613124 /* multilineCommentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = multilineCommentExtension.entitlements; sourceTree = "<group>"; };
-		405A02B81F90B74800613124 /* AllLines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLines.swift; sourceTree = "<group>"; };
-		405ACF9A1F90F06100758A7D /* SelectedRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedRange.swift; sourceTree = "<group>"; };
-		405ACF9C1F90F62200758A7D /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
-		4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedLinesCommentInNewLine.swift; sourceTree = "<group>"; };
+		AA1234560000000000000001 /* CommentCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +119,8 @@
 		405A02AA1F90B40100613124 /* multilineCommentExtension */ = {
 			isa = PBXGroup;
 			children = (
-				405ACF9C1F90F62200758A7D /* Consts.swift */,
 				405A02AB1F90B40100613124 /* SourceEditorExtension.swift */,
-				400E6C981F90C5FC003879F8 /* SelectedLinesTrimming.swift */,
-				405A02AD1F90B40100613124 /* SelectedLines.swift */,
-				405ACF9A1F90F06100758A7D /* SelectedRange.swift */,
-				405A02B81F90B74800613124 /* AllLines.swift */,
-				4084C9FD1F90CD22002ECCD1 /* SelectedLinesCommentInNewLine.swift */,
-				400E6C9A1F90C733003879F8 /* DecommentLines.swift */,
+				AA1234560000000000000001 /* CommentCommand.swift */,
 				405A02AF1F90B40100613124 /* Info.plist */,
 				405A02B01F90B40100613124 /* multilineCommentExtension.entitlements */,
 			);
@@ -256,14 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4084C9FE1F90CD23002ECCD1 /* SelectedLinesCommentInNewLine.swift in Sources */,
-				405ACF9D1F90F62200758A7D /* Consts.swift in Sources */,
-				400E6C971F90C540003879F8 /* AllLines.swift in Sources */,
-				400E6C991F90C5FC003879F8 /* SelectedLinesTrimming.swift in Sources */,
-				400E6C9B1F90C733003879F8 /* DecommentLines.swift in Sources */,
-				405ACF9B1F90F06100758A7D /* SelectedRange.swift in Sources */,
 				405A02AC1F90B40100613124 /* SourceEditorExtension.swift in Sources */,
-				405A02AE1F90B40100613124 /* SelectedLines.swift in Sources */,
+				AA1234560000000000000002 /* CommentCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

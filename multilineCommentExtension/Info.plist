@@ -30,51 +30,27 @@
 			<array>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SelectedLines</string>
+					<string>$(PRODUCT_MODULE_NAME).CommentSelection</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SelectedLines</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).CommentSelection</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Comment Selected Lines</string>
-				</dict>
-                <dict>
-                    <key>XCSourceEditorCommandClassName</key>
-                    <string>$(PRODUCT_MODULE_NAME).SelectedRange</string>
-                    <key>XCSourceEditorCommandIdentifier</key>
-                    <string>$(PRODUCT_BUNDLE_IDENTIFIER).SelectedRange</string>
-                    <key>XCSourceEditorCommandName</key>
-                    <string>Comment Selected Range</string>
-                </dict>
-				<dict>
-					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SelectedLinesTrimming</string>
-					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SelectedLinesTrimming</string>
-					<key>XCSourceEditorCommandName</key>
-					<string>Comment Selected Lines With Trimming</string>
+					<string>Comment Selection</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).AllLines</string>
+					<string>$(PRODUCT_MODULE_NAME).BlockComment</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).AllLines</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).BlockComment</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Comment All Lines</string>
+					<string>Block Comment</string>
 				</dict>
-                <dict>
-                    <key>XCSourceEditorCommandClassName</key>
-                    <string>$(PRODUCT_MODULE_NAME).SelectedLinesCommentInNewLine</string>
-                    <key>XCSourceEditorCommandIdentifier</key>
-                    <string>$(PRODUCT_BUNDLE_IDENTIFIER).SelectedLinesCommentInNewLine</string>
-                    <key>XCSourceEditorCommandName</key>
-                    <string>Comment Selected Lines with sign in New Lines</string>
-                </dict>
-                <dict>
+				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).DecommentLines</string>
+					<string>$(PRODUCT_MODULE_NAME).Uncomment</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).DecommentLines</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).Uncomment</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>De Comment Selected Lines</string>
+					<string>Uncomment</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
@@ -84,6 +60,6 @@
 		<string>com.apple.dt.Xcode.extension.source-editor</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 Andrew Vanyurin. All rights reserved.</string>
+	<string>Copyright © 2026 Andreas Maier. All rights reserved.</string>
 </dict>
 </plist>

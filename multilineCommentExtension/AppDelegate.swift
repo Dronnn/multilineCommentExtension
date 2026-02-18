@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  multilineCommentExtension
 //
-//  Created by Andrew Vanyurin on 13/10/2017.
-//  Copyright © 2017 Andrew Vanyurin. All rights reserved.
+//  Created by Andreas Maier on 18/02/2026.
+//  Copyright © 2026 Andreas Maier. All rights reserved.
 //
 
 import Cocoa
